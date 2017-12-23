@@ -1,5 +1,3 @@
-# ManyThreadUpdateUi
-
 既然有子线程，那就肯定需要更新UI，在Android中子线程更新UI的方法有以下四种:
 - 用Activity对象的runOnUiThread方法更新
 - View.post(Runnable r) 
